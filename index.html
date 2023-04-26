@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bai.css" type="text/css">
+    <style>
+        *{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+.banner{
+    background-color: greenyellow;
+    border: 1px rgb blanchedalmond;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 98%;
+    margin: 0px auto;
+}
+.name_banner{font-size: 50px;
+color: white;
+font-weight: bold;
+width: 98%;
+}
+
+.h1{
+    color: white;
+    background-color: paleturquoise;
+    border: 1px powderblue;
+    width: 750px;
+    height: 50px;
+    margin: 0px auto;
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.menu{
+    margin-left: 15px;
+    height: 40%;
+
+    left: 0;
+    top: 40;
+    width: 250px;
+    background-color: #333;
+    color: #ccc;
+}
+.root li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    transition: 0.3s;
+    /*text-align: center;*/
+    padding-left: 25px;
+}
+.root li:hover{
+    padding-left: 35px;
+    background-color: #445665;
+}
+.root li a{
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* banner-slider */
+.banner-slider{
+    width: 325px; height: 434px;
+    background-color:  rgb(228, 228, 228);
+    margin: -300px 0px 30px 1200px;
+    font-size: large;
+    background: none;
+}
+footer{
+    background-color:pink;
+    text-align:center;
+    padding:25px;
+    font-size:18px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    line-height: 1.5;
+    outline: none;
+
+} /* Menu cấp 1 */
+.menucap1 {
+    background-color: rgb(228, 228, 228);
+    width: 100%;
+    height: 50px;
+    margin-left: 15px;
+    margin: 0px auto rgb(228, 228, 228);
+}
+
+.menucap1 li {
+    list-style-type: none;
+    float: left;
+    
+    position: relative;
+}
+
+.menucap1 li a {
+    text-decoration: none;
+    color: #242121;
+    padding: 5px 30px;
+    display: block; line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menucap1 li a:hover {
+    background: crimson;
+    color: #fff;
+}
+
+.menucap1 li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+/* Menu cấp 2 */
+    .menucap2 {
+        z-index: 1;
+        display: none;
+        padding-left: 0px;
+        width: 270px;
+        background: rgb(228, 228, 228);
+    }
+
+    .menucap2 li {
+        border-top: 1px solid cornsilk;
+        float: none;
+    }
+
+    .menucap2 li a:hover {
+        background: chocolate;
+        color: white;
+    }
+/* Menu cấp 3 */
+.parag{
+    background-color:White;
+    margin: -460px 350px 30px 300px;
+    width: 650px;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-radius: 6px;
+}
+.parag p{
+    margin-left:150px;
+}
+    </style>
+</head>
+<header>
+    <div class="banner">
+        <p class="name_banner"><marquee behavior="left">GIỚI THIỆU VỀ BẢN THÂN VÀ QUÊ HƯƠNG</marquee></p>
+        <p class="h1">HOTLINE: 0373637858, Địa chỉ: Thanh Trì, Hà Nội</p>
+    </div>
+    <div>
+        <!-- menu -->
+        <ul class="menucap1">
+            <li><a href="doanhmuc.html"><strong><i class='bx bx-laptop' ></i> Những điều về tôi</strong></a>
+                <!-- menucap2 -->
+                <ul class="menucap2">
+                    <li><a href="doanhmuc.html">ngoại hình</a></li>        
+                    <li><a href="doanhmuc.html">tính cách</a></li>
+                    <li><a href="doanhmuc.html">sở thích</a></li>
+                    <li><a href="doanhmuc.html">ưu điểm</a></li>
+                </ul>
+            </li>
+            <li><a href="#"><strong><i class='bx bxs-wrench'></i>  Gia đình Tôi</strong></a>
+            <li><a href="#"><strong><i class='bx bxs-purchase-tag' ></i> Các mối quan hệ</strong></a>
+            <li><a href="#"><strong>Định hướng tương lai</strong></a></li>
+        </ul>
+     </div>
+    <div class="menu_web">
+        <div class="menu">
+            <ul class="root">
+                <li><a href="https://www.facebook.com/profile.php?id=100025050574054&mibextid=LQQJ4d" class="href">Facebook</a></li>
+                <li><a href="https://www.youtube.com/@tranphuonganh5581" class="href">Youtube</a>
+                </li>
+                <li><a href="https://instagram.com/phank.i12?igshid=YmMyMTA2M2Y=" class="href">Instagram</a>
+                </li>
+                <li><a href="https://www.tiktok.com/@duaw_leoo?_t=8bogBSL1dWU&_r=1" class="href">Tiktok</a>
+                </li>
+                <li><a href="" class="href">Discord</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<body>
+    <!-- banner -->
+<div class="banner-slider">
+    <a href="#"><img class="img_edit" src="C:/Users/Admin/plPictures" width="200" height="200"><br></a>
+      <p>Họ và tên: Trần Phương Anh <br>
+        Ngày sinh: 29/12/2004<br>
+        Quê quán: Lạng Sơn<br>
+        Địa Chỉ: Thanh Trì - Hà Nội <br>
+        Trình độ học vấn: Đại Học <br>
+        Nơi đang theo học: Đại Nam UNIVERSITY
+      </p>
+</div>
+<div class="parag">
+<p> Tôi tên là Trần Phương Anh sinh ra và lớn lên tại quê hương xứ Lạng - mảnh đất đầy tình yêu thương . Hiện tại tôi đang là sinh viên tại trường Đại học Đại Nam . Tôi muốn giới thiệu tới mọi người về quê hương của tôi . Nằm ở cửa ngõ phía Đông Bắc của Tổ quốc , Lạng Sơn là nơi có khá nhiều thuận lợi về điều kiện tự nhiên . Có nhiều thắng cảnh & di tích lịch sử văn hoá truyền thống như động Nhị Thanh , chùa Tam Thanh … Lạng Sơn còn là nơi có nhiều dân tộc bản địa . Ngoài ra quê nhà xứ Lạng còn có những món ăn mang đậm phong vị như phở chua , vịt quay , khẩu nhục… Bên cạnh đó vị trí của Lạng Sơn còn là một điểm du lịch rất thú vị 
+    </p>
+</div>
+</body>
+<footer>
+    <div>
+        <h3>THUỘC QUYỀN SỞ HỮU VÀ QUẢN LÝ BỞI TRẦN PHƯƠNG ANH</h3>
+        <p>Địa chỉ:Thanh Trì,Hà Nội</p>
+        <p>Điện thoại:0373637858 </p>
+        <p>Email: tranphuonganh29122004@gmail.com </p><br>
+
+    </div>
+</footer>
+</html>
